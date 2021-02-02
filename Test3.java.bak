@@ -1,0 +1,16 @@
+class Test3 
+{
+	public static void main(String[] args)
+	{ 
+		double x,y,z,w;
+		x=Math.random();
+		y=Math.pow(10,2);
+		z=Math.sqrt(625);
+		w=Math.round(3.5)
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		System.out.println(w);
+
+	}
+}

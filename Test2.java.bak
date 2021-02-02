@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.Scanner;
+class Test2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner xxx = new Scanner(System.in);
+		System.out.print("INPUT NUMBER:");
+		int b = xxx.nextInt();
+		System.out.print("\t"+b+"+"+5);
+		try
+		{
+			System.out.print("Enter input :");
+			char x = (char)System.in.read();
+			System.out.println(x);
+		}
+		catch (IOException x){}
+		
+	}
+}

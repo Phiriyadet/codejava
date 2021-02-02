@@ -1,0 +1,14 @@
+public class random_3 {
+
+    public static void main(String[] args) {
+
+        for(i=0;;i++)
+        {
+            int r;
+            r=(int)(Math.random(+3)*4);
+            System.out.println(r);
+        }
+        
+    }
+    
+}
